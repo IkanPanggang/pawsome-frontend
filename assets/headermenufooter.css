@@ -30,7 +30,7 @@
 }
 
 .navigation a:hover{
-    border-bottom: 1vh solid #0065ad;
+    border-bottom: 0.5vh solid #0084AD;
 }
 
 #active{
