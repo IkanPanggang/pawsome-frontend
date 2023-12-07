@@ -1,30 +1,30 @@
 .header {
     background-color: #FFF;
     display: flex;
-    padding: 3vh 0 2vh;
+    font-family: sans-serif;
 }
 
-.logo,
-.loginButton {
+.logo {
     flex: 1;
 }
 
 .logo img{
-    height: 5vh;
+    height: 6.5vh;
     width: auto;
 }
 
 .navigation {
+    margin: 2vh 0 0;
     vertical-align: middle;
     height: 5vh;
 }
 
 .navigation a{
     vertical-align: middle;
-
     font-size: 20px;
     color: #000;
     text-align: center;
+    margin: 15px 30px;
     padding: 15px 30px 5px;
     text-decoration: none;
 }
@@ -37,18 +37,21 @@
     border-bottom: 5px solid #0084AD;
 }
 
-
 .loginButton {
+    flex: 1;
+    margin: 2vh 1vh 0 0 ;
     text-align: end;
 }
 
 .loginButton a {
+    border-radius: 1vh;
     font-size: 20px;
     color: #000000;
     background-color: #0084AD;
     text-align: center;
-    padding: 15px 30px 10px;
+    padding: 1vh 2vw;
     text-decoration: none;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
 }
 
 .footer{

@@ -1,5 +1,5 @@
 body{
-    background-color: #f6a410;
+    background-color: #FFFFFF;
     height: 100%;
     font-family: sans-serif;
     margin: 0 0 45px;
@@ -30,7 +30,7 @@ body{
 }
 
 .hyperlink{
-    background-color: #207394;
+    background-color: #FFF;
     color: white;
     text-decoration: none;
     padding: 5px;

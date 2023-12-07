@@ -1,5 +1,6 @@
 body{
-    background-color: #f6a410;
+    background-color: #FFFFFF;
+    background-image: url("../../assets/SL-011023-55240-09.jpg");
     height: 100%;
     font-family: sans-serif;
     margin: 0 0 45px;
@@ -7,12 +8,11 @@ body{
 
 .content{
     text-align: center;
-    color: #FFF;
-    min-height: 100%;
+    color: #000000;
 }
 
 .content h1{
-    margin-top: 7%;
+    margin-top: 15%;
     font-size: 80px;
 }
 
@@ -23,41 +23,70 @@ body{
 
 #register{
     background-color: #e64110;
-    color: white;
     text-decoration: none;
     padding: 20px;
     border-radius: 60px;
 }
 
-.hyperlink{
-    background-color: #207394;
-    color: white;
-    text-decoration: none;
-    padding: 5px;
-}
-
-.content h1{
+.title {
+    font-size: 40px;
     color: #063444;
+
 }
 
-
-.content h2{
-    margin-top: 10%;
-    font-size: 50px;
+.label{
+    margin-top: 10px;
+    font-size: 22px;
 }
 
-
-@media screen and (max-width: 800px) {
-    .content h1{
-        font-size: 40px;
-    }
-
-    .content p{
-        font-size: 20px;
-    }
-
-    .content h2{
-        font-size: 25px;
-    }
+form{
+    margin: 15px auto;
+    font-size: 20px;
+    background-color: #207394;
+    padding: 2% 1%;
+    width: 50%;
+    border-radius: 18px;
 }
+
+.gender{
+    font-size: 23px;
+}
+
+.gender input{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.city select{
+    margin-top: 17px;
+    margin-bottom: 5px;
+    font-size: 23px;
+    width: 40%;
+}
+
+.formInput input{
+    margin-top: 15px;
+    width: 40%;
+    font-size: 20px;
+
+}
+
+.button{
+    text-align: center;
+}
+
+.button input{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: #084152;
+    color: #FFFFFF;
+    padding: 10px 40px;
+}
+
+#errMsg{
+    margin-top: 15px;
+    color: #000000;
+}
+
 

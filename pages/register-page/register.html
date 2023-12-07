@@ -5,27 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apalaini</title>
-    <link rel="stylesheet" href="../home-page/home.css">
+    <link rel="stylesheet" href="../register-page/register.css">
     <link rel="stylesheet" href="../../assets/headermenufooter.css">
 </head>
 <body>
 <header>
-    <h1>header</h1>
+    <div class="header">
+        <div class="logo">
+            <img src="../../assets/logo_pawsome.png"/>
+        </div>
+        <div class="navigation">
+            <a href="../home-page/home.html"><b>Home</b></a>
+            <a href="../home-page/home.html"><b>Products</b></a>
+            <a href="../home-page/home.html"><b>About Us</b></a>
+            <a href="../home-page/home.html"><b>Find Doctors</b></a>
+        </div>
+        <div class="loginButton">
+            <a href="../login-page/login.html">Login</a>
+        </div>
+    </div>
 </header>
 
-<div class="navigation">
-    <a href="../home-page/home.html" id="active"><b>Home</b></a>
-</div>
-
 <div class="content">
+    <h3 class="title">Register Form</h3>
+    <form action="#" onsubmit="return formValidation()" method="get">
 
+        <div class="formInput">
+            <div class="label"><label for="username"><b>Username</b></label><br></div>
+            <input type="text" name="username" id="username">
+        </div>
+
+        <div class="formInput">
+            <div class="label"><label for="email"><b>Email</b></label><br></div>
+            <input type="text" name="email" id="email">
+        </div>
+
+        <div class="formInput">
+            <div class="label"><label for="password"><b>Password</b></label><br></div>
+            <input type="password" name="password" id="password">
+        </div>
+
+        <div class="button">
+            <input type="submit" value="Register">
+        </div>
+
+        <div id="errMsg"></div>
+    </form>
 </div>
 
-<div class="footer">
-    <div class="copyright">
-        <p>Copyright © 2023 Apalaini. All Rights Reserved</p>
-    </div>
-</div>
+
+<!--<div class="footer">-->
+<!--    <div class="copyright">-->
+<!--        <p>Copyright © 2023 Apalaini. All Rights Reserved</p>-->
+<!--    </div>-->
+<!--</div>-->
 
 <script src="register.js"></script>
 </body>
