@@ -57,14 +57,14 @@ body{
 .row {
     justify-content: center;
     display: grid;
-    grid-template-columns: 20% 20%;
+    grid-template-columns: 30% 30%;
     grid-gap: 2%;
 }
 
 .item {
     border: 0.3vh solid #0084AD;
-    padding: 3%;
-    border-radius: 10px;
+    padding: 1.3vh;
+    border-radius: 2vh;
 }
 
 .doctorList {
@@ -74,18 +74,23 @@ body{
 .container {
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 2vh;
 }
 
-.doctorList h3{
-    font-size: 3vh;
+.doctorList h1{
     color: #063444;
 }
 
 .doctorName {
     color: black;
-    font-size: 150%;
+    font-size: 3vh;
     text-align: center;
+}
+
+.doctorDescription {
+    color: black;
+    font-size: 2vh;
+    text-align: left;
 }
 
 .pokemonDescription {
