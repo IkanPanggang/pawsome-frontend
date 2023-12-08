@@ -37,13 +37,19 @@
     border-bottom: 0.5vh solid #0084AD;
 }
 
-.loginButton {
+.actionHeader {
     flex: 1;
     margin: 2vh 1vh 0 0 ;
     text-align: end;
 }
 
-.loginButton a {
+.actionButton img {
+    height: 4vh;
+    width: 4vh;
+    margin: -0.6vh 1.5vh;
+}
+
+.loginButton, .logoutButton {
     border-radius: 1vh;
     font-size: 2vh;
     color: #000000;

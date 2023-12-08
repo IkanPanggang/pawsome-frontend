@@ -19,4 +19,27 @@ function openProduct(evt, cityName) {
     evt.currentTarget.className += " active";
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+    if (localStorage.getItem("loggedIn")) {
+        showLoggedInContent();
+    } else {
+        hideLoggedInContent();
+    }
+});
 
+function onClickLogin() {
+    localStorage.setItem("loggedIn", "true");
+}
+
+function onClickLogout() {
+    localStorage.clear()
+    location.reload()
+}
+
+function hideLoggedInContent() {
+    document.querySelector(".loggedInAction").style.display = "none";
+}
+function showLoggedInContent() {
+    document.querySelector(".beforeLoggedInAction").style.display = "none";
+    document.querySelector(".loggedInAction").style.display = "show";
+}

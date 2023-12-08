@@ -7,6 +7,7 @@
     <title>Pawsome</title>
     <link rel="stylesheet" href="../about-us-page/about_us.css">
     <link rel="stylesheet" href="../../assets/headermenufooter.css">
+    <script src="../../assets/component.js"></script>
 </head>
 <body>
 <header>
@@ -20,20 +21,76 @@
             <a href="../about-us-page/about_us.html" id="active"><b>About Us</b></a>
             <a href="../find-doctors-page/find_doctors.html"><b>Find Doctors</b></a>
         </div>
-        <div class="loginButton">
-            <a href="../login-page/login.html">Login</a>
+        <div class="actionHeader">
+            <div class="loggedInAction">
+                <a href="../product-page/product.html" class="actionButton"><img
+                        src="../../assets/Chat Bubble.png"/></a>
+                <a href="../product-page/product.html" class="actionButton"><img src="../../assets/Shopping Cart.png"/></a>
+                <a href="../product-page/product.html" class="actionButton"><img src="../../assets/User.png"/></a>
+                <a onclick="onClickLogout()" class="logoutButton">Logout</a>
+            </div>
+            <div class="beforeLoggedInAction">
+                <a href="../register-page/register.html" class="loginButton">Register</a>
+                <a href="../login-page/login.html" class="loginButton">Login</a>
+            </div>
         </div>
     </div>
 </header>
 
 <div class="content">
-
+    <div class="section">
+        <div class="top">
+            <h1>About Us</h1>
+            <h3>
+                Welcome to Pawsome, where we're dedicated to the health and happiness of all your beloved pets,
+                regardless of their shape, size, or species. Our team of passionate veterinarians and pet healthcare
+                professionals is here to provide expert care and support to ensure your pets lead their best lives.
+            </h3>
+        </div>
+        <img src="../../assets/Screenshot_2023-12-08_181104-removebg-preview.png"/>
+    </div>
+    <div class="section">
+        <img src="../../assets/Screenshot_2023-12-08_181651-removebg-preview.png"/>
+        <div class="middle">
+            <h1>Our Mission</h1>
+            <h3>
+                At Pawsome, our mission is to offer exceptional veterinary care and support, tailored to the unique
+                needs of all pets. We believe that every animal companion deserves access to top-quality healthcare, and
+                we're here to make it accessible and convenient.
+            </h3>
+        </div>
+    </div>
+    <div class="bottom">
+        <h1>Contact Us</h1>
+        <div class="contacts">
+            <div class="row">
+                <div class="item">
+                    <div class="container">
+                        <img class="symbol" src="../../assets/143.png">
+                        <div class="text">
+                            <span class="productName">Charizard</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="container">
+                        <img class="symbol" src="../../assets/143.png">
+                        <div class="text">
+                            <span class="productName">Charizard</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="container">
+                        <img class="symbol" src="../../assets/143.png">
+                        <div class="text">
+                            <span class="productName">Charizard</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-
-<!--<div class="footer">-->
-<!--    <div class="copyright">-->
-<!--        <p>Copyright © 2023 Apalaini. All Rights Reserved</p>-->
-<!--    </div>-->
-<!--</div>-->
 </body>
 </html>
