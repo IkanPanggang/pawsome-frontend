@@ -29,11 +29,11 @@ body{
 }
 
 .column {
-    width: 70%;
+    width: 80%;
 }
 
 .image {
-    width: 30%;
+    width: 40%;
 }
 
 .column h1 p {
@@ -93,28 +93,9 @@ body{
     text-align: left;
 }
 
-.pokemonDescription {
-    color: black;
-    font-size: 100%;
-}
-
 .doctorPicture {
     height: 30%;
     width: 30%;
     object-fit: cover;
-}
-
-@media screen and (max-width: 800px) {
-    .content h1{
-        font-size: 40px;
-    }
-
-    .content p{
-        font-size: 20px;
-    }
-
-    .content h2{
-        font-size: 25px;
-    }
 }
 
