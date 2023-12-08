@@ -12,81 +12,70 @@ body{
 }
 
 .content h1{
-    margin-top: 15%;
-    font-size: 80px;
+    font-size: 8vh;
 }
 
 .content p{
     margin-top: -2%;
-    font-size: 30px;
-}
-
-#register{
-    background-color: #e64110;
-    text-decoration: none;
-    padding: 20px;
-    border-radius: 60px;
+    font-size: 2vh;
 }
 
 .title {
-    font-size: 40px;
+    font-size: 8vh;
     color: #063444;
 
 }
 
 .label{
-    margin-top: 10px;
-    font-size: 22px;
+    margin-top: 2vh;
+    font-size: 2vh;
 }
 
 form{
-    margin: 15px auto;
-    font-size: 20px;
-    background-color: #207394;
-    padding: 2% 1%;
+    margin: 1vh auto;
+    font-size: 2vh;
+    background-color: #EBF2F2;
+    padding: 2% 1% 1%;
     width: 50%;
-    border-radius: 18px;
+    border-radius: 3vh;
 }
 
-.gender{
-    font-size: 23px;
+p {
+    margin-top: 5vh;
+    font-size: 1vh;
 }
 
-.gender input{
-    margin-top: 15px;
-    margin-bottom: 5px;
-}
-
-.city select{
-    margin-top: 17px;
-    margin-bottom: 5px;
-    font-size: 23px;
-    width: 40%;
-}
+p > a {
+    border-radius: 1vh;
+    font-size: 2vh;
+    color: #FFFFFF;
+    background-color: #0084AD;
+    text-align: center;
+    padding: 1vh 1.5vw;
+    text-decoration: none;
+    box-shadow: 0 0.3vh 0.3vh rgba(0,0,0,0.2);}
 
 .formInput input{
-    margin-top: 15px;
+    margin-top: 1.5vh;
     width: 40%;
-    font-size: 20px;
+    font-size: 2vh;
 
 }
 
 .button{
     text-align: center;
+    margin-bottom: 5vh;
 }
 
 .button input{
     text-align: center;
-    margin-top: 20px;
-    font-size: 20px;
-    background-color: #084152;
+    border: none;
+    margin-top: 2vh;
+    font-size: 2vh;
+    background-color: #0084AD;
     color: #FFFFFF;
-    padding: 10px 40px;
+    padding: 1vh 1.5vh;
 }
 
-#errMsg{
-    margin-top: 15px;
-    color: #000000;
-}
 
 

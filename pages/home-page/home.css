@@ -11,8 +11,7 @@ body{
 }
 
 .content h1{
-    margin-top: 7%;
-    font-size: 5vh;
+    font-size: 8vh;
 }
 
 .content p{
@@ -34,6 +33,10 @@ body{
 
 .image {
     width: 40%;
+}
+
+.column h1 {
+    margin-top: -2vh;
 }
 
 .column h1 p {
@@ -79,6 +82,7 @@ body{
 
 .doctorList h1{
     color: #063444;
+    margin-top: 10vh;
 }
 
 .doctorName {

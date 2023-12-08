@@ -3,7 +3,7 @@ body{
     background-image: url("../../assets/SL-011023-55240-09.jpg");
     height: 100%;
     font-family: sans-serif;
-    margin: 0 0 45px;
+    margin: 0 0 2vh;
 }
 
 .content{
@@ -12,62 +12,38 @@ body{
 }
 
 .content h1{
-    margin-top: 15%;
-    font-size: 80px;
+    font-size: 8vh;
 }
 
 .content p{
     margin-top: -2%;
-    font-size: 30px;
-}
-
-#register{
-    background-color: #e64110;
-    text-decoration: none;
-    padding: 20px;
-    border-radius: 60px;
+    font-size: 2vh;
 }
 
 .title {
-    font-size: 40px;
+    font-size: 8vh;
     color: #063444;
 
 }
 
 .label{
-    margin-top: 10px;
-    font-size: 22px;
+    margin-top: 2vh;
+    font-size: 2vh;
 }
 
 form{
-    margin: 15px auto;
-    font-size: 20px;
-    background-color: #207394;
+    margin: 1.5vh auto;
+    font-size: 2vh;
+    background-color: #EBF2F2;
     padding: 2% 1%;
     width: 50%;
-    border-radius: 18px;
-}
-
-.gender{
-    font-size: 23px;
-}
-
-.gender input{
-    margin-top: 15px;
-    margin-bottom: 5px;
-}
-
-.city select{
-    margin-top: 17px;
-    margin-bottom: 5px;
-    font-size: 23px;
-    width: 40%;
+    border-radius: 2vh;
 }
 
 .formInput input{
-    margin-top: 15px;
+    margin-top: 2vh;
     width: 40%;
-    font-size: 20px;
+    font-size: 2vh;
 
 }
 
@@ -77,16 +53,12 @@ form{
 
 .button input{
     text-align: center;
-    margin-top: 20px;
-    font-size: 20px;
-    background-color: #084152;
+    border: none;
+    margin-top: 2vh;
+    font-size: 2vh;
+    background-color: #0084AD;
     color: #FFFFFF;
-    padding: 10px 40px;
-}
-
-#errMsg{
-    margin-top: 15px;
-    color: #000000;
+    padding: 1vh 2vh;
 }
 
 

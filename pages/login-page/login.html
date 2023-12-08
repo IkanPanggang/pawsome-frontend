@@ -25,7 +25,7 @@
             <div class="loggedInAction">
                 <a href="../product-page/product.html" class="actionButton"><img
                         src="../../assets/Chat Bubble.png"/></a>
-                <a href="../product-page/product.html" class="actionButton"><img src="../../assets/Shopping Cart.png"/></a>
+                <a href="../cart-page/cart.html" class="actionButton"><img src="../../assets/Shopping Cart.png"/></a>
                 <a href="../product-page/product.html" class="actionButton"><img src="../../assets/User.png"/></a>
                 <a onclick="onClickLogout()" class="logoutButton">Logout</a>
             </div>
@@ -39,24 +39,27 @@
 
 <div class="content">
     <h3 class="title">Login</h3>
-    <form action="#" onsubmit="return onClickLogin()" method="get">
+    <div class="formLogin">
+        <form action="#" onsubmit="return onClickLogin()" method="get">
 
-        <div class="formInput">
-            <div class="label"><label for="username"><b>Username/Email</b></label><br></div>
-            <input type="text" name="username" id="username">
-        </div>
+            <div class="formInput">
+                <div class="label"><label for="username"><b>Username/Email</b></label><br></div>
+                <input type="text" name="username" id="username">
+            </div>
 
-        <div class="formInput">
-            <div class="label"><label for="password"><b>Password</b></label><br></div>
-            <input type="password" name="password" id="password">
-        </div>
+            <div class="formInput">
+                <div class="label"><label for="password"><b>Password</b></label><br></div>
+                <input type="password" name="password" id="password">
+            </div>
 
-        <div class="button">
-            <input type="submit" value="Login">
-        </div>
+            <div class="button">
+                <input type="submit" value="Login">
+            </div>
 
-        <div id="errMsg"></div>
-    </form>
+            <p>Don't have an account? <a href="../register-page/register.html">Register</a></p>
+        </form>
+    </div>
+
 </div>
 </body>
 </html>
