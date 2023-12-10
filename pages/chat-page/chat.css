@@ -1,0 +1,112 @@
+body{
+    background-color: #FFFFFF;
+    background-image: url("../../assets/SL-011023-55240-09.jpg");
+    height: 100%;
+    font-family: sans-serif;
+    margin: 0 0 2vh;
+}
+
+.content{
+    text-align: center;
+    color: #000000;
+    padding: 10vh;
+}
+
+.content h1{
+    font-size: 8vh;
+}
+
+.chatFriend {
+    display: flex;
+    width: 90%;
+    padding-bottom: 5vh;
+    background-color: #2E4FFF;
+}
+
+.chatFriend img {
+    height: 10vh;
+    margin-left: 2vh;
+    width: auto;
+}
+
+.chatFriend h1 {
+    margin-left: 2vh;
+    font-size: 4vh;
+}
+
+.chat {
+    margin-top: -5vh;
+    padding: 1vh 0;
+    width: 90%;
+    background-color: #063444;
+}
+
+.friendBubble {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    background-color: #edffa0;
+    width: 40%;
+    padding: 1vh 0.6vh;
+    text-align: left;
+}
+
+.senderBubble {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-right: 1vw;
+    margin-left: auto;
+    background-color: #FFFFFF;
+    width: 40%;
+    padding: 1vh 0.6vh;
+    text-align: right;
+}
+
+.senderBubble p, .friendBubble p {
+    word-wrap: break-word;
+}
+
+.senderArea {
+    padding: 2vh 0;
+    width: 90%;
+
+    background-color: #a100ff;
+    display: flex;
+}
+
+.field {
+    width: 90%;
+}
+
+.field textarea {
+    margin-left: 1vw;
+    width: 100%;
+    background-color: red;
+}
+
+.sendButton {
+    margin-top: 1vh;
+    margin-right: -0.3vw;
+    width: 10%;
+}
+
+.senderArea a {
+    border-radius: 1vh;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-left: auto;
+    font-size: 1.5vh;
+    color: #FFFFFF;
+    background-color: #0084AD;
+    text-align: center;
+    padding: 1vh 1vw;
+    text-decoration: none;
+    box-shadow: 0 0.3vh 0.3vh rgba(0,0,0,0.2);
+}
+
+textarea {
+    font-size: 2vh;
+    resize: vertical;
+}
+
+
