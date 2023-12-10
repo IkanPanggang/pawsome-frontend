@@ -1,6 +1,9 @@
 body{
     background-color: #FFFFFF;
     background-image: url("../../assets/SL-011023-55240-09.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
     font-family: sans-serif;
     margin: 0 0 45px;
