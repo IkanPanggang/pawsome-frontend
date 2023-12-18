@@ -85,30 +85,6 @@ body {
     margin: 2rem 15rem 0rem 15rem;
 }
 
-.contain {
-    display: grid;
-    grid-template-columns: 95% 5%;
-    align-items: center;
-    padding: 1rem;
-}
-
-.settingHeader {
-    font-size: 4vh;
-    padding: 0 0 1rem 0;
-    color: #B5B5B5;
-}
-
-.settingImage {
-    width: 3vh;
-}
-
-.settingDesc {
-    font-size: 3vh;
-    color: black;
-    padding-top: 1rem;
-    padding-left: 2.5rem;
-}
-
 .settings2 {
     align-content: center;
     min-height: 100%;
@@ -117,4 +93,35 @@ body {
     border-bottom-left-radius: 10vh;
     background-color: #FFFFFF;
     margin: 1rem 15rem 0 15rem;
+}
+
+.contain {
+    display: grid;
+    grid-template-columns: 95% 5%;
+    align-items: center;
+    padding: 1rem 0 0.5rem 0;
+}
+
+.settingHeader {
+    font-size: 4vh;
+    padding: 0 0 1rem 0;
+    color: #B5B5B5;
+    display: flex;
+    align-items: center;
+}
+
+.settingImage {
+    width: 3vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.settingDesc {
+    font-size: 3vh;
+    color: black;
+    padding-left: 3.5rem;
+}
+
+.moreButton {
+    padding-top: 1rem;
 }
