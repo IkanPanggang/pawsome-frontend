@@ -67,6 +67,7 @@ p > a {
 .button{
     text-align: center;
     margin-bottom: 5vh;
+    margin-top: 2rem;
 }
 
 .button input{
