@@ -10,6 +10,7 @@ body {
 .content {
     align-content: center;
     min-height: 100%;
+    margin-bottom: 2rem;
 }
 
 .content h1 {
@@ -26,44 +27,41 @@ body {
     justify-content: center;
     display: grid;
     grid-template-columns: 75%;
-    grid-gap: 2%;
+    grid-gap: 20%;
     margin-top: 5rem;
 }
 
 .item {
-    background-color: #FFFFFF;
-    padding: 0 1.3vh;
-    border-radius: 30vh;
+    padding: 0 1.5vh;
+    border-radius: 10vh;
+    background-color: #0084AD;
 }
 
 .container {
     display: grid;
     grid-template-columns: 20% 70% 10%;
     align-items: center;
-    padding: 2vh;
+    padding: 2rem;
 }
 
 .container button {
-    background-color: #2E4FFF;
+    background-color: #AE1313;
     border: none;
     outline: none;
     cursor: pointer;
     padding: 2vh;
-    font-size: 1.5vh;
+    font-size: 2.5vh;
     border-radius: 3vh;
     color: #FFFFFF;
 }
 
 .username {
-    color: black;
-    font-size: 3vh;
-    text-align: center;
+    font-size: 5vh;
+    font-weight: bold;
 }
 
 .email, .phone-number  {
-    color: black;
-    font-size: 2vh;
-    text-align: left;
+    font-size: 3vh;
 }
 
 .Picture {
@@ -73,3 +71,50 @@ body {
     border-radius: 100%;
 }
 
+.settingButton {
+    margin-left: 96rem;
+}
+
+.settings {
+    align-content: center;
+    min-height: 100%;
+    padding: 0 4vh;
+    border-top-right-radius: 10vh;
+    border-top-left-radius: 10vh;
+    background-color: #FFFFFF;
+    margin: 2rem 15rem 0rem 15rem;
+}
+
+.contain {
+    display: grid;
+    grid-template-columns: 95% 5%;
+    align-items: center;
+    padding: 1rem;
+}
+
+.settingHeader {
+    font-size: 4vh;
+    padding: 0 0 1rem 0;
+    color: #B5B5B5;
+}
+
+.settingImage {
+    width: 3vh;
+}
+
+.settingDesc {
+    font-size: 3vh;
+    color: black;
+    padding-top: 1rem;
+    padding-left: 2.5rem;
+}
+
+.settings2 {
+    align-content: center;
+    min-height: 100%;
+    padding: 0 4vh;
+    border-BOTTOM-right-radius: 10vh;
+    border-bottom-left-radius: 10vh;
+    background-color: #FFFFFF;
+    margin: 1rem 15rem 0 15rem;
+}
