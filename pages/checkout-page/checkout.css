@@ -1,0 +1,47 @@
+body{
+    background-color: #FFFFFF;
+    height: 100%;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.content{
+    text-align: center;
+    color: #000000;
+    border-style: solid;
+    border-color: #0084AD;
+    padding: 10px;
+    margin: 2vh 20vh;
+    border-width: 0.3vw;
+}
+
+.content h1{
+    font-size: 8vh;
+}
+
+.payment {
+    text-align: center;
+}
+
+.action {
+    width: 100%;
+    display: flex;
+}
+
+.contactUs{
+    font-size: 5vh;
+    margin-right: 1vw;
+    background-color: #B2D9EE;
+    color: #FFFFFF;
+    padding: 1vh 2vw;
+    border-radius: 1vh;
+}
+
+.done{
+    font-size: 5vh;
+    margin-left: 1vw;
+    background-color: #0084AD;
+    color: #FFFFFF;
+    padding: 1vh 2vw;
+    border-radius: 1vh;
+}

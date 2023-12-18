@@ -3,7 +3,7 @@ body{
     background-image: url("../../assets/SL-011023-55240-09.jpg");
     height: 100%;
     font-family: sans-serif;
-    margin: 0 0 2vh;
+    margin: 0;
 }
 
 .content{
@@ -63,8 +63,8 @@ body{
 }
 
 .productPicture {
-    width: 20vh;
-    height: 20vh;
+    width: 15vh;
+    height: 15vh;
     object-fit: cover;
 }
 
@@ -99,6 +99,39 @@ body{
     cursor: pointer;
     color: #0084AD;
     user-select: none;
+}
+
+.checkout {
+    width: 80vw;
+    margin: 3vh auto 0;
+    display: flex;
+    background-color: #0084AD;
+    color: #FFFFFF;
+    border-radius: 2vh;
+    padding: 1vh 3vw;
+}
+
+.checkout h1 {
+    font-size: 3vh;
+    color: #FFFFFF;
+}
+
+.total {
+    margin-left: 0;
+    text-align: left;
+}
+
+.payment {
+    margin-left: auto;
+    margin-right: 0;
+    background-color: rgba(0, 0, 0, 0.22);
+    padding: 0 2vw;
+    border-radius: 1.5vh;
+}
+
+.payment a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 
