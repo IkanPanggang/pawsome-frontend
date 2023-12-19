@@ -23,6 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function onClickLogin() {
     localStorage.setItem("loggedIn", "true");
+    window.location.replace('../profile-page/profile.html');
+    return false;
 }
 
 function onClickLogout() {
