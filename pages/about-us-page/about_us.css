@@ -94,3 +94,9 @@ body{
     width: 20vh;
     object-fit: cover;
 }
+
+.contactUsDetail {
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+}
